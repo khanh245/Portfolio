@@ -10,6 +10,7 @@
     @Scripts.Render("~/bundles/bootstrap")
 
 </head>
+
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -46,12 +47,21 @@
         </div>
     </nav>
 
-    <div class="container body-content">
+    <div>
         @RenderBody()
-
-        <footer>
-            <p class="text-center">&copy; @DateTime.Now.Year - Khanh Nguyen Portfolio </p>
-        </footer>
     </div>
+
+    <footer class="panel-footer">
+        <div class="col-sm-4">
+            <p class="text-center">This is the first column.</p>
+        </div>
+        <div class="col-sm-4">
+            <p class="text-center">This is the second column.</p>
+        </div>
+        <div class="col-sm-4">
+            <p class="text-center">This is the last column.</p>
+        </div>
+        <p class="text-center">&copy; @DateTime.Now.Year - Khanh Nguyen Portfolio </p>
+    </footer>
 </body>
 </html>
