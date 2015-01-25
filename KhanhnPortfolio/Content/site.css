@@ -33,3 +33,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
     color: white;
 }
+
+.panel-footer {
+    background: rgb(169,3,41); /* Old browsers */
+}
